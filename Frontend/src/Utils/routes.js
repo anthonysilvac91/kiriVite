@@ -1,5 +1,11 @@
 export const routes = {
     home: '/',
     categories: '/categories',
-    contact: '/contact'
+    accesories: '/accesories',
+    notebooks: '/notebooks',
+    pencils: '/pencils',
+    planners: '/planners',
+    memopads: '/memopads',
+    stickers: '/stickers',
+
 }
