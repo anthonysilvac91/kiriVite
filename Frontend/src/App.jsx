@@ -6,6 +6,7 @@ import Home from './Pages/Home/Home'
 import Categories from './Pages/Categories/Categories'
 import Contact from './Pages/Contact/Contact'
 
+
 function App() {
   
 
