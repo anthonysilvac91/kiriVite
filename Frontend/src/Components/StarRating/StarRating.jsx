@@ -11,13 +11,13 @@ const StarRating = ({ rating = 0 }) => {
   return (
     <div className="flex items-center">
       {[...Array(fullStars)].map((_, i) => (
-        <FontAwesomeIcon key={i} icon={faStar} className="text-yellow-500" />
+        <FontAwesomeIcon key={i} icon={faStar} className="text-yellow-500 text-xs sm:text-sm md:text-lg 2xl:text-xl" />
       ))}
-      {halfStar === 1 && <FontAwesomeIcon icon={faStarHalfAlt} className="text-yellow-500" />}
+      {halfStar === 1 && <FontAwesomeIcon icon={faStarHalfAlt} className="text-yellow-500 text-xs sm:text-sm md:text-lg 2xl:text-xl"  />}
       {[...Array(emptyStars)].map((_, i) => (
-        <FontAwesomeIcon key={i + fullStars + 1} icon={faStarEmpty} className="text-yellow-500" />
+        <FontAwesomeIcon key={i + fullStars + 1} icon={faStarEmpty} className="text-yellow-500 text-xs sm:text-sm md:text-lg 2xl:text-xl" />
       ))}
-      <span className="ml-2 text-sm text-gray-600">({validRating})</span>
+      <span className="ml-2 text-xs 2xl:text-lg text-gray-600">({validRating})</span>
     </div>
   );
 };
