@@ -12,8 +12,13 @@ export default {
         'blue-color': 'var(--blue-color)',
         'background-color': 'var(--background-color)',
       },
+      
+      
+        
+     
     },
   },
   plugins: [],
 }
+
 
