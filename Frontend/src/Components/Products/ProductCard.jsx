@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import '../../Styles/style.css'
 import StarRating from '../StarRating/StarRating';
+import CustomButton from '../CustomButton/CustomButton';
 
 
 const ProductCard = ( {product} ) => {
@@ -31,9 +32,7 @@ const ProductCard = ( {product} ) => {
                     {isFavorite ? '❤️' : '🤍'}
                 </button>
             </div>
-            <div className='flex justify-center items-center mt-2'>
-                <button className='bg-primary-rosa p-2 pr-8 pl-8 rounded-lg text-white font-bold text-sm md:text-lg lg:text-xl 2xl:text-2xl'  >Agregar</button>
-            </div>
+            <CustomButton text="Agregar"/>
             
         </div>
     </div>
