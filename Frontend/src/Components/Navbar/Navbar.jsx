@@ -66,8 +66,8 @@ const NavbarM = () => {
                 <ul>
                 {menuItems.map((item,index) =>(
                     <li className='m-5 hover:text-primary-rosa' key={index}>
-                        <Link to={item.route}>
-                            <span className={`${location.pathname === item.route ? 'text-primary-rosa' : 'text-text-color'} text-xl font-bold`}>
+                        <Link to={`/category/${item.route.toLowerCase()}`}>
+                            <span className={`${location.pathname === `/category/${item.route.toLowerCase()}` ? 'text-primary-rosa' : 'text-text-color'} text-xl font-bold`}>
                             {item.text} 
                             </span>                        
                         </Link>

@@ -6,6 +6,7 @@ import Home from './Pages/Home/Home'
 import Categories from './Pages/Categories/Categories'
 import Contact from './Pages/Contact/Contact'
 import { ProductProvider } from './Context/ProductContext'
+import Footer from './Components/Footer/Footer'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
             <Route path={routes.categories} element={<Categories/>} />
             <Route path={routes.contact} element={<Contact/>} />
           </Routes>
+        <Footer/>
       </ProductProvider>
      </>
   )

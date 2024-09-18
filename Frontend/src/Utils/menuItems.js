@@ -2,10 +2,10 @@ import { routes } from "./routes";
 
 
 export const menuItems = [
-    { text: 'Accesorios', route: routes.accesories },
-    { text: 'Agendas', route: routes.notebooks },
-    { text: 'Lápices', route: routes.pencils},
-    { text: 'Planificadores', route: routes.planners },
-    { text: 'Notas Adhesivas', route: routes.memopads },
-    { text: 'Stickers', route: routes.stickers }, 
+    { text: 'Accesorios', route: 'electronics' },
+    { text: 'Agendas', route: 'jewelery' },
+    { text: 'Lápices', route: "men's clothing"},
+    { text: 'Planificadores', route: "women's clothing"},
+    { text: 'Notas Adhesivas', route: 'jewelery' },
+    { text: 'Stickers', route: 'electronics' }, 
   ];

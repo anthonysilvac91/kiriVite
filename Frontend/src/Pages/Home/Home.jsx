@@ -4,6 +4,7 @@ import { useProductContext } from '../../Context/ProductContext';
 import Category from '../../Components/Category/Category';
 import img_banner from '../../../src/Assets/banner_stabilo.jpg'
 import CallToAction from '../../Components/CallToAction/CallToAction';
+import InfoSection from '../../Components/InfoSection/InfoSection';
 
 const Home = () => {
   const { state } = useProductContext();
@@ -24,6 +25,7 @@ const Home = () => {
         <div>
           <CallToAction/>
         </div>
+        <InfoSection/>
       </div>
 
     
